@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    lru_redux (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lru_redux
+
+BUNDLED WITH
+   1.13.3
