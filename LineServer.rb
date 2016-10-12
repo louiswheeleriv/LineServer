@@ -29,7 +29,7 @@ $fileEnum.each do |line|
     end
 end
 
-puts "SUCCESS: Read first #{$CACHE_SIZE} lines into cache (#{'%.2f' % (Time.now-t2)} sec)"
+puts "SUCCESS: Read first #{$cache.to_a.size} lines into cache (#{'%.2f' % (Time.now-t2)} sec)"
 
 # Retrieve a particular line from the file
 def read_line_from_file(index)
